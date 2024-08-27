@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 50% ;
+    width: 600px ;
     height: auto;
     padding: 20px;
     margin: 50px auto;
@@ -72,6 +72,7 @@ body {
 }
 
 .content {
+    width: 100%;
     padding: 10px;
     max-width: 600px; 
 }
@@ -110,20 +111,26 @@ body {
 }
 
 .icon i {
-    padding: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 .fa-brands fa-linkedin {
     padding: 20px;
+
 }
 
 .profile-card {
-    width: 30%;
+    
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap:wrap ;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     align-items: center;
-    border-radius: 8px;
+    border-radius: 8px ;
+    float: left;
+    
 }
 
 .profile-card img {
@@ -136,8 +143,8 @@ body {
 }
 
 .profile-info {
-    width: 250px;
-    height: 50px;
+    width: 100%;
+    height: auto;
     text-align: center;
     padding-top: 10px;
 }
