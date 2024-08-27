@@ -5,6 +5,8 @@ body, ul {
 nav {
     background-color: white;
     padding: 10px 20px; 
+    margin: 30px;
+
 }
 
 nav ul {
