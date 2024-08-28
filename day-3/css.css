@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: #ffffff; /* Dark background color */
+    background-color: #ffffff; 
     padding: 10px 20px;
 }
 
@@ -44,65 +44,72 @@ nav ul li a:hover {
     color: white;/* Slightly lighter background on hover */
 }
 
+/* Container */
 .containerform {
-    background-color: rgb(180, 177, 177); 
-    padding: 50px;
+    background-color: #ffffff; /* White background for form */
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px;
-    max-width: 400px;
-    width:100%;
-    margin: 110px auto;
-    display: flexbox;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 40px auto;
 }
 
-.containerform label {
-    display: block;
-    margin-bottom: 8px;
+/* Wrapper */
+.wraper {
+    text-align: center;
+}
+
+.wraper h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    text-align: left;
+    margin-bottom: 5px;
     font-weight: bold;
-
+    color: #333;
 }
 
-.containerform input:nth-child(9) {
-    padding: 50px;
-}
-
-.containerform input {
-    width: 100%;
-    padding: 20px;
+form input, 
+form select, 
+form textarea {
     margin-bottom: 15px;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    display: flexbox;
-}
-
-.containerform button {
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 50%;
-    padding: 8px;
-    background-color: black; 
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 8px;
-}
-
-.containerform button:hover {
-    background-color: #b30000; /* Darker blue on hover */
-}
-
-.containerform h1 {
-    padding-bottom: 40px;
-}
-
-#select {
-    width: 100%;
-    padding: 20px;
-    margin: auto;
     border-radius: 5px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    font-size: 16px;
 }
+
+form select {
+    height: 40px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; /* Blue background for button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+

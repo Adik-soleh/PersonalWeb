@@ -15,9 +15,13 @@ function sandEmail (event) {
     }else if(!msg.length) {
         return alert('email tidak boleh kosong')
     }
-    // alert(`Nama: ${nama}\nEmail: ${email}\nPhone: ${phone}\nMasage: ${msg}`)
+    // alert(`Nama: ${nama}Email: ${email}\nPhone: ${phone}\nMasage: ${msg}`)
     const link =  document.createElement("a");
-    link.href = `mailto: ${email}?subject=${sub}&body=Nama: ${nama}\nNomor Hp: ${phone}\nMasage: ${msg}`;
+    link.href = `mailto: ${email}
+    ?subject=${sub}
+    &body=Nama: ${nama} 
+    Nomor Hp: ${phone} 
+    Masage: ${msg}`;
 
     link.click()
 }
