@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff; /* Dark background color */
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:nth-child(3){
+    float: left;
+}
+
+nav ul li img {
+    height: 40px; /* Adjust the logo size */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: black; 
+    color: white;/* Slightly lighter background on hover */
+}
+
+.containerform {
+    background-color: rgb(180, 177, 177); 
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px;
+    max-width: 400px;
+    width:100%;
+    margin: 110px auto;
+    display: flexbox;
+}
+
+.containerform label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
+
+.containerform input:nth-child(9) {
+    padding: 50px;
+}
+
+.containerform input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flexbox;
+}
+
+.containerform button {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50%;
+    padding: 8px;
+    background-color: black; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.containerform button:hover {
+    background-color: #b30000; /* Darker blue on hover */
+}
+
+.containerform h1 {
+    padding-bottom: 40px;
+}
+
+#select {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
