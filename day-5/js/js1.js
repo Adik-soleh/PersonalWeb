@@ -118,11 +118,11 @@ function deleteProject(button) {
     card.remove();
 }
 
-// const a = document.querySelectorAll('nav ul li a ');
-// for(let i = 0; i<a.length; i++) {
-//     a[i].addEventListener('mouseover', myFunction) ;
-//     function myFunction() {
-//         a[i].style.backgroundColor = 'black';
-//         a[i].style.color = 'white'
-//     }
-// }
+const a = document.querySelectorAll('nav ul li a ');
+for(let i = 0; i<a.length; i++) {
+    a[i].addEventListener('mouseover', myFunction) ;
+    function myFunction() {
+        a[i].style.backgroundColor = 'black';
+        a[i].style.color = 'white'
+    }
+}
