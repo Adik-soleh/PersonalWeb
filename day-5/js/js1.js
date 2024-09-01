@@ -69,7 +69,7 @@
         const card = document.createElement('div');
         card.className = 'project-card';
         
-        // Calculate the duration between the start and end dates
+        // Duration
         const startDate = new Date(start);
         const duration = calculateDuration(startDate, new Date());
         
@@ -106,8 +106,7 @@
         for(let j= 0 ;j < iconStatus.length;j++){
             iconStatus;
             console.log(iconStatus);
-            
-}
+        }
     
 card.innerHTML = `
 <div calass="containerCard">
