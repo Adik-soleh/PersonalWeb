@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Project</title>
-    <link rel="stylesheet" href="/day-5/css/style.css">
+    <link rel="stylesheet" href="/day-5/css/nav.css">
+    <link rel="stylesheet" href="/day-5/css/index.css">
+<link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.css">
 </head>
 <body>
     <nav>
@@ -15,9 +17,11 @@
             <li><a href="contack.html">Contact Me</a></li>
         </ul>
     </nav>
-    <main>
+    <detail id="detail">
+        <main>
         <section class="add-project">
-            <h1>POST A PROJECT</h1>
+            <h1>POST A PROJECT</i></h1>
+        
             <form id="projectForm">
                 <div class="allform">
                     <label for="nama">Project Name</label>
@@ -37,13 +41,13 @@
                 <div class="allform">
                     <label>Technologies</label>
                     <div id="tec">
-                        <input type="checkbox" id="HTML" name="technologies" value="fa-brands fa-twitter">
+                        <input type="checkbox" id="HTML" name="technologies" value="HTML">
                         <label for="HTML">HTML</label>
                         <input type="checkbox" id="CSS" name="technologies" value="CSS">
                         <label for="CSS">CSS</label>
                     </div>
                     <div id="tec2" >
-                        <input type="checkbox" id="JS" name="technologies" value="JS">
+                        <input type="checkbox" id="JS" name="technologies" value="JavaScript">
                         <label for="JS">JavaScript</label>
                         <input type="checkbox" id="typeScript" name="technologies" value="TypeScript">
                         <label for="typeScript">TypeScript<label>
@@ -60,11 +64,12 @@
         <section class="project-list">
             <h2>LIST PROJECT</h2>
             <div id="cardContainer" class="projects">
-
             </div>
         </section>
     </main>
-
+</detail>
+    
     <script src="/day-5/js/js1.js"></script>
 </body>
 </html>
+
